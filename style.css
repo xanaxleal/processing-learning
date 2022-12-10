@@ -52,3 +52,17 @@ li > * {
     margin: 0;
     text-align: left;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        float: none;
+    }
+    main {
+        text-align: center;
+        float: none;
+    }
+    main > canvas {
+        left: 0;
+        top: 0;
+    }
+} 
